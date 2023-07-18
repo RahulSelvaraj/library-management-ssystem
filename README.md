@@ -2,7 +2,7 @@ The Library Management System is a web application designed to streamline and op
 
 The key functionalities of the Library Management System include:
 
-Book and Member Management: Librarians can perform CRUD (Create, Read, Update, Delete) operations on books and members. They can add new books to the system, update book details such as title, author, and stock quantity, and manage member information.
+<h3>Book and Member Management:</h3>Librarians can perform CRUD (Create, Read, Update, Delete) operations on books and members. They can add new books to the system, update book details such as title, author, and stock quantity, and manage member information.
 
 Book Issuance and Returns: The system allows librarians to issue books to members. When a member borrows a book, the stock quantity is reduced accordingly. Members can also return books to the library, increasing the stock and triggering rent fees, if applicable.
 
