@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management System - Home</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Library Management System</h1>
+    <div class="menu">
+      <a href="{{ url_for('books') }}">Books</a>
+      <a href="{{ url_for('members') }}">Members</a>
+      <a href="{{ url_for('add_book') }}">Add Book</a>
+      <a href="{{ url_for('add_member') }}">Add Member</a>
+      <a href="{{ url_for('search') }}">Search</a>
+      <a href="{{ url_for('transactions') }}">Transactions</a>
+      <a href="{{ url_for('issue_book') }}">IssueBook</a>
+      <a href="{{ url_for('return_book') }}">ReturnBook</a>
+    </div>
+  </div>
+</body>
+</html>

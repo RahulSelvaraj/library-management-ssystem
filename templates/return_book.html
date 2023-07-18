@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management System - Return Book</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Return Book</h1>
+    <form action="{{ url_for('return_book') }}" method="POST">
+      <input type="text" name="member_id" placeholder="Member ID" required>
+      <input type="text" name="book_id" placeholder="Book ID" required>
+      <input type="submit" value="Return Book">
+    </form>
+  </div>
+</body>
+</html>

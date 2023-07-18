@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management System - Issue Book</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Issue Book</h1>
+    <form action="{{ url_for('issue_book') }}" method="POST">
+      <input type="text" name="member_id" placeholder="Member ID" required>
+      <input type="text" name="book_id" placeholder="Book ID" required>
+      <input type="submit" value="Issue Book">
+    </form>
+  </div>
+</body>
+</html>

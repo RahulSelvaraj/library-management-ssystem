@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management System - Transactions</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Transactions</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Book ID</th>
+          <th>Member ID</th>
+          <th>Issue Date</th>
+          <th>Return Date</th>
+          <th>Rent Fee</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for transaction in transactions %}
+        <tr>
+          <td>{{ transaction[0] }}</td>
+          <td>{{ transaction[1] }}</td>
+          <td>{{ transaction[2] }}</td>
+          <td>{{ transaction[3] }}</td>
+          <td>{{ transaction[4] }}</td>
+          <td>{{ transaction[5] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
