@@ -1,4 +1,4 @@
-The Library Management System is a web application designed to streamline and optimize the day-to-day operations of a local library. The project aims to provide librarians with a user-friendly platform to efficiently track books, manage their quantities, issue books to members, and handle book returns. The application is built using HTML, CSS, Flask, and SQL technologies.
+<h1>Library Management System</h1> The Library Management System is a web application designed to streamline and optimize the day-to-day operations of a local library. The project aims to provide librarians with a user-friendly platform to efficiently track books, manage their quantities, issue books to members, and handle book returns. The application is built using HTML, CSS, Flask, and SQL technologies.
 
 The key functionalities of the Library Management System include:
 
